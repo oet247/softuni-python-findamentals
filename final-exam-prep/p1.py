@@ -10,7 +10,7 @@ def space (og: str, index: int):
     l = [og[:index], ' ', og[index:]]
     og = ''.join(l)
     return og
-for i in range(20):
+while 1==1:
     comm = input().split(":|:")
     if comm[0] == 'ChangeAll':
         mes = change(mes, comm[1], comm[2]) 
